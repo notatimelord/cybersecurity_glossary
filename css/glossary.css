@@ -1,0 +1,198 @@
+.new_term_insert {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 90%; 
+}
+
+.new_term_insert form {
+    text-align: center;
+}
+
+.new_term_insert label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.new_term_insert input[type="text"],
+.new_term_insert input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.new_term_insert #definition {
+    height: 100px; 
+    overflow-y: auto; 
+}
+
+.new_term_insert input[type="submit"] {
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.new_term_insert input[type="submit"]:hover {
+    background-color: lightgray;
+}
+
+.container_buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.latin-character-links-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.latin-character-link {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.latin-character-link:hover {
+    color: #0056b3;
+}
+
+#termsList {
+    width: 80%; 
+    margin: 50px auto; 
+    text-align: center; 
+}
+
+.term-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    width: 300px; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.term-definition strong,
+.term-source strong,
+.term-link strong,
+.term-updated-at strong {
+    font-weight: bold;
+}
+
+.term-source,
+.term-link,
+.term-updated-at {
+    margin-top: 5px;
+}
+
+.small-text {
+    font-size: smaller; 
+}
+
+
+.content-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+#latinCharacterLinksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 20px; 
+}
+
+.description {
+    margin-top: 10px; 
+}
+
+#downloadLink {
+    display: block;
+    text-align: center;
+}
+
+
+.latin-character-link {
+    margin: 5px; 
+}
+
+.edit-term-button,
+.delete-term-button {
+    background-color: #e0e0e0; /* Grey color */
+    border: none;
+    color: #333; /* Dark text color */
+    padding: 8px 16px;
+    margin-right: 10px; /* Adjust spacing between buttons */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-term-button:hover,
+.delete-term-button:hover {
+    background-color: #ccc; /* Lighter grey color on hover */
+}
+
+.button-container {
+    background-color: #f9f9f9; /* Light grey background */
+    border: 1px solid #ccc; /* Border */
+    width: 300px; /* Width */
+    margin: 0 auto; /* Centered */
+    padding: 10px; /* Padding */
+    display: flex; /* Flexbox */
+    justify-content: center; /* Center content horizontally */
+    margin-bottom: 10px; /* Space between containers */
+}
+
+/* CSS for the input boxes */
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top: 5px;
+}
