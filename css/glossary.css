@@ -153,14 +153,13 @@
 .latin-character-link {
     margin: 5px; 
 }
-
 .edit-term-button,
 .delete-term-button {
-    background-color: #e0e0e0; /* Grey color */
+    background-color: #e0e0e0;
     border: none;
-    color: #333; /* Dark text color */
+    color: #333;
     padding: 8px 16px;
-    margin-right: 10px; /* Adjust spacing between buttons */
+    margin-right: 10px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -168,21 +167,20 @@
 
 .edit-term-button:hover,
 .delete-term-button:hover {
-    background-color: #ccc; /* Lighter grey color on hover */
+    background-color: #ccc;
 }
 
 .button-container {
-    background-color: #f9f9f9; /* Light grey background */
-    border: 1px solid #ccc; /* Border */
-    width: 300px; /* Width */
-    margin: 0 auto; /* Centered */
-    padding: 10px; /* Padding */
-    display: flex; /* Flexbox */
-    justify-content: center; /* Center content horizontally */
-    margin-bottom: 10px; /* Space between containers */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
-/* CSS for the input boxes */
 .input-container {
     margin-bottom: 10px;
 }
